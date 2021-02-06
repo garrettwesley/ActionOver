@@ -114,7 +114,6 @@ struct ActionOver: ViewModifier {
                     .actionSheet(isPresented: $presented) {
                         ActionSheet(
                             title: Text(self.title),
-                            message: Text(self.message ?? ""),
                             buttons: sheetButtons)
                 }
         }
